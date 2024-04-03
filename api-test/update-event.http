@@ -1,0 +1,10 @@
+PUT http://localhost:8080/events/20
+content-type: application/json
+authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIyQHVzZXIuY29tIiwiZXhwIjoxNzEyMTU0MDIyLCJ1c2VySWQiOjJ9.Lk-9XbPT4CL6IP5MvdECfF1U26SSy1T6WBm6I4FW8I0
+
+  {
+    "name": "Updated 1",
+    "description": "Updated description",
+    "date": "2024-03-26T10:50:00Z",
+    "location": "Updated location"
+  }
